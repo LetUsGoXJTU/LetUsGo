@@ -11,11 +11,19 @@ Page({
   },
   //事件处理函数
   bindViewTap: function() {
+    this.setData({
+      motto :"this is a page"
+    })
+    console.log("sdsd")  
     wx.navigateTo({
       url: '../logs/logs'
     })
   },
   onLoad: function () {
+      wx.navigateTo({
+        url: '../0.0/login',
+      })
+
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
@@ -44,6 +52,7 @@ Page({
     }
   },
   getUserInfo: function(e) {
+    
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo
     this.setData({

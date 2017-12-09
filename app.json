@@ -1,12 +1,45 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/0.0/login"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#ddc40b",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "let us go"
+        
+       
+      },
+      {
+        "pagePath": "pages/dynamic/index",
+        "text": "动态"
+        
+      },
+      {
+        "pagePath": "pages/msg/index",
+        "text": "消息"
+        
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "img/account.png",
+        "selectedIconPath": "img/account1.png"
+      }
+    ]
   }
+
 }
