@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container">
+<view wx:if = "{{dengluhou}}" class="container">
 
 <view id = "logo">Let us go</view>
   <view class="userinfo">
@@ -13,3 +13,55 @@
     <text class="user-motto">{{motto}}</text>
   </view>
 </view>
+
+<scroll-view id='manypic' wx:if = "{{!dengluhou}}" >
+<view id='bigpic'>
+
+<view id = 'bigpic1'>
+<image class='bigpicclass'  style='width:412px ; height:264px' mode='{{modepic}}' src='{{bigpicsrc}}'></image>
+</view>
+
+</view>
+
+<view>
+<label>-----------------热门景点推荐---------------</label>
+</view>
+<view id='smallpic'>
+<view>
+<view  id = "smallpic1" class='in'>
+<image src='{{smallpic}}'  style='width:150px ; height:100px' mode='aspectFit'></image>
+</view>
+<view class='in'>
+这是大雁塔
+</view>
+</view>
+
+<view>
+<view  id = "smallpic2" class='in'>
+<image  src='{{smallpic}}' style='width:150px ; height:100px' mode='aspectFit'></image>
+</view>
+<view class='in'>
+这是大雁塔
+</view>
+</view>
+
+<view>
+<view  id = "smallpic3" class='in'>
+<image  src='{{smallpic}}' style='width:150px ; height:100px' mode='aspectFit'></image>
+</view>
+<view class='in'>
+这是大雁塔
+</view>
+
+<view>
+<view  id = "smallpic3" class='in'>
+<image  src='{{smallpic}}' style='width:150px ; height:100px' mode='aspectFit'></image>
+</view>
+<view class='in'>
+这是大雁塔
+</view>
+
+</view>
+</view>
+</view>
+</scroll-view>

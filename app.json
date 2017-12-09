@@ -2,20 +2,29 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/my/index",
+    "pages/info/add",
+    "pages/info/edit",
+    "pages/info/index",
+    "pages/haoyou/haoyou"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    
+    
+      "backgroundTextStyle": "dark",
+      "navigationBarBackgroundColor": "#0099CC",
+      "navigationBarTitleText": "Let us go",
+      "navigationBarTextStyle": "white",
+      "enablePullDownRefresh": true
+    },
 
-  },
+  
   "tabBar": {
     "color": "#aaa",
     "selectedColor": "#ddc40b",
     "backgroundColor": "#fff",
-    "borderStyle": "black",
+    "borderStyle": "blue",
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -24,13 +33,13 @@
        
       },
       {
-        "pagePath": "pages/dynamic/index",
-        "text": "动态"
+        "pagePath": "pages/info/add",
+        "text": "出行"
         
       },
       {
-        "pagePath": "pages/msg/index",
-        "text": "消息"
+        "pagePath": "pages/haoyou/haoyou",
+        "text": "好友"
         
       },
       {
