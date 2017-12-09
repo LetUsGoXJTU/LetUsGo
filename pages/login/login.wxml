@@ -1,0 +1,30 @@
+<view wx:if="{{condition1}}" class='question'>
+<view>问题一</view>
+
+<view>性格</view>
+<view>{{space}} </view>
+<view>{{space}} </view>
+<radio-group>
+<view class='radio1' wx:for="{{items}}">
+<radio value='{{item.name}}' checked='{{item.checked}}'/>
+{{item.vaule}}
+</view>
+
+
+</radio-group>
+</view>
+
+<view wx:if="{{condition2}}" class='question'>
+this is q2
+</view>
+
+<view wx:if="{{condition3}}" class='question'>
+this is q3
+</view>
+
+<view wx:if="{{condition4}}" class='question'>
+this is q4
+</view>
+
+<button bindtap="nextquestion" id='next_button'> 下一个 </button>
+

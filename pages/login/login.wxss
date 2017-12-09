@@ -1,0 +1,10 @@
+/* pages/login/login.wxss */
+#next_button{
+
+position: relative;
+
+bottom: -300px;
+
+
+
+}

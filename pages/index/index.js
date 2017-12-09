@@ -21,7 +21,7 @@ Page({
   },
   onLoad: function () {
       wx.navigateTo({
-        url: '../0.0/login',
+        url: '../login/login',
       })
 
     if (app.globalData.userInfo) {
