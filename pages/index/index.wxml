@@ -29,36 +29,36 @@
 <view id='smallpic'>
 <view>
 <view  id = "smallpic1" class='in'>
-<image src='{{smallpic}}'  style='width:150px ; height:100px' mode='aspectFit'></image>
+<image src='{{xian}}'  style='width:150px ; height:100px' mode='aspectFit'></image>
 </view>
 <view class='in'>
-这是大雁塔
+西安
 </view>
 </view>
 
 <view>
 <view  id = "smallpic2" class='in'>
-<image  src='{{smallpic}}' style='width:150px ; height:100px' mode='aspectFit'></image>
+<image  src='{{beijing}}' style='width:150px ; height:100px' mode='aspectFit'></image>
 </view>
 <view class='in'>
-这是大雁塔
+北京
 </view>
 </view>
 
 <view>
 <view  id = "smallpic3" class='in'>
-<image  src='{{smallpic}}' style='width:150px ; height:100px' mode='aspectFit'></image>
+<image  src='{{shanghai}}' style='width:150px ; height:100px' mode='aspectFit'></image>
 </view>
 <view class='in'>
-这是大雁塔
+上海
 </view>
 
 <view>
 <view  id = "smallpic3" class='in'>
-<image  src='{{smallpic}}' style='width:150px ; height:100px' mode='aspectFit'></image>
+<image  src='{{guangzhou}}' style='width:150px ; height:100px' mode='aspectFit'></image>
 </view>
 <view class='in'>
-这是大雁塔
+广州
 </view>
 
 </view>

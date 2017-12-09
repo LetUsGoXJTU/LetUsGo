@@ -13,7 +13,10 @@ Page({
     dengluhou:true,
     bigpicsrc : '/img/bingmayong.jpg',
     modepic: "scaleToFill",
-    smallpic:'/img/dayanta.jpg'
+    beijing:'/img/000beijing.jpg',
+    shanghai:'/img/001shanghai.jpg',
+    guangzhou:'/img/002guangzhou.jpg',
+    xian:"/img/003xian.jpg"
   },
   //事件处理函数
   bindViewTap: function() {
